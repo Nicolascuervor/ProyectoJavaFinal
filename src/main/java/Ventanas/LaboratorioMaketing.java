@@ -146,14 +146,7 @@ public class LaboratorioMaketing extends javax.swing.JFrame implements ThemedFra
         ScrollBarCustom sp = new ScrollBarCustom();
         sp.setOrientation(JScrollBar.HORIZONTAL);
         
-        if(usuarioActual.getRol().contentEquals("Profesor") ||usuarioActual.getRol().contentEquals("Estudiante") ){
-                botonAdmins.setOpaque(false);
-                botonAdmins.setContentAreaFilled(false);
-                botonAdmins.setBorderPainted(false);
-                botonAdmins.setText("");
-                botonAdmins.setEnabled(false);
-               
-        }
+      
         
         
         
